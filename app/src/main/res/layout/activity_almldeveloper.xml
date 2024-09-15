@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".almldeveloper">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technologies"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tech1">
+
+        <androidx.cardview.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:elevation="8dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false"
+            android:id="@+id/techv1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/icon"
+            app:cardCornerRadius="80dp"
+            android:layout_margin="40dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/androidicon"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/android"
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:elevation="8dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false"
+            android:id="@+id/techv2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/icon"
+            app:cardCornerRadius="80dp"
+            >
+
+            <ImageView
+                android:id="@+id/kotlin"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/kotlin"
+                android:layout_gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tech2">
+
+        <androidx.cardview.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:elevation="8dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false"
+            android:id="@+id/techv3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/icon"
+            app:cardCornerRadius="80dp"
+            android:layout_margin="40dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/flutter"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/flutter"
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:elevation="8dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false"
+            android:id="@+id/techv4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/icon"
+            app:cardCornerRadius="80dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/firebase"
+                android:layout_gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

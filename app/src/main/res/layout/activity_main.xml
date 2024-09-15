@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Welcome to" />
+
+    <TextView
+        android:id="@+id/samlltext"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Technology Hub"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnletsgo"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:backgroundTint="#E4CCFF"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        android:text="Let's Go" />
+</LinearLayout>
